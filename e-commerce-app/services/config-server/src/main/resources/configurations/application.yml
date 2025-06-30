@@ -1,0 +1,13 @@
+eureka:
+  instance:
+    hostname: localhost
+    ##rejestracja w eureka
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+      ##adres, pod którym się rejestruje (adres eureki)
+spring:
+  cloud:
+    config:
+      override.system-properties: false
+      ##nie nadpisuj właściwości systemowych
