@@ -16,7 +16,7 @@ public class Product {
 
     @Id
     @Generated
-    private int id;
+    private Integer id;
     private String name;
     private String description;
     private double availableQuantity;
