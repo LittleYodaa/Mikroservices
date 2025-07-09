@@ -1,0 +1,30 @@
+INSERT INTO category (id, description, name)
+VALUES (1, 'Computer Keyboards', 'Keyboards'),
+       (51, 'Computer Monitors', 'Monitors'),
+       (101, 'Display Screens', 'Screens'),
+       (151, 'Computer Mice', 'Mice'),
+       (201, 'Computer Accessories', 'Accessories');
+
+INSERT INTO product (id, description, name, available_quantity, price, category_id)
+VALUES (1, 'Mechanical keyboard with blue switches', 'Mechanical Keyboard 1', 10, 99.99, 1),
+       (51, 'Wireless compact keyboard with Bluetooth', 'Wireless Compact Keyboard 1', 15, 79.99, 1),
+       (101, 'Backlit gaming keyboard with macros', 'Gaming Keyboard 1', 20, 129.99, 1),
+       (151, 'Mechanical keyboard with ergonomic design', 'Ergonomic Keyboard 1', 25, 109.99, 1),
+       (201, 'Wireless keyboard and mouse combo', 'Wireless Combo 1', 18, 69.99, 1),
+       (251, '27-inch IPS monitor with 1440p resolution', '4K Monitor 1', 30, 399.99, 51),
+       (301, 'Ultra-wide gaming monitor with 144Hz refresh', 'Ultra-wide Gaming Monitor 1', 25, 499.99, 51),
+       (351, '24-inch LED monitor with HDMI', 'Office Monitor 1', 22, 179.99, 51),
+       (401, '32-inch curved monitor', 'Curved Monitor 1', 28, 329.99, 51),
+       (451, 'Portable USB-C monitor for laptops', 'Portable Monitor 1', 35, 249.99, 51),
+       (501, 'Curved OLED gaming display', 'Curved OLED Gaming Display 1', 15, 799.99, 101),
+       (551, 'Flat QLED monitor with HDR', 'QLED Monitor 1', 18, 599.99, 101),
+       (601, '27-inch touch screen display', 'Touch Screen Display 1', 22, 699.99, 101),
+       (651, 'Ultra-slim 4K HDR display', 'Ultra-slim 4K HDR Display 1', 20, 449.99, 101),
+       (701, 'Gaming projector with HDMI and USB-C', 'Gaming Projector 1', 20, 899.99, 101),
+       (751, 'Wireless gaming mouse with RGB', 'Wireless Gaming Mouse 1', 40, 49.99, 151),
+       (801, 'USB 3.0 multiport hub with 4 ports', 'USB Hub 4-Port', 50, 29.99, 201),
+       (851, 'External SSD 1TB with USB-C connection', 'Portable SSD 1TB', 20, 149.99, 201),
+       (901, 'Ergonomic laptop stand with adjustable height', 'Laptop Stand Adjustable', 35, 39.99, 201),
+       (951, 'Wireless presenter with laser pointer', 'Wireless Presenter', 40, 24.99, 201),
+       (1001, 'High-speed HDMI cable (2m)', 'HDMI Cable 2m', 100, 9.99, 201),
+       (1051, 'Noise-cancelling USB conference microphone', 'Conference Microphone', 18, 89.99, 201);
